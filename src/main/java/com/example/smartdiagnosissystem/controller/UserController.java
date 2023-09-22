@@ -18,8 +18,8 @@ private UserRepository userRepository;
 
 //Get All users
    @GetMapping("/users")
-   public List<User>  getAllUser()
+   public String saveUser()
     {
-        return  userRepository.findAll();
+
     }
 }
